@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		0EE73E74204D59C200110E11 /* CMACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE73E72204D599C00110E11 /* CMACTests.swift */; };
 		14156CE52011422400DDCFBC /* ChaCha20Poly1305Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14156CE42011422400DDCFBC /* ChaCha20Poly1305Tests.swift */; };
 		1467460F2017BB3600DF04ED /* AEAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467460E2017BB3600DF04ED /* AEAD.swift */; };
+		2206765C2B081ABA00D797DD /* AESEncryptedFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206765B2B081ABA00D797DD /* AESEncryptedFile.swift */; };
+		2206765E2B081B0100D797DD /* AESEncryptedFileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206765D2B081B0100D797DD /* AESEncryptedFileTests.swift */; };
 		35F3E51C23BF9A6700A024A1 /* OCB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3E51B23BF9A6700A024A1 /* OCB.swift */; };
 		42012783267A6F1C00F82506 /* ISO10126Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42012782267A6F1C00F82506 /* ISO10126Padding.swift */; };
 		674A736F1BF5D85B00866C5B /* RabbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A736E1BF5D85B00866C5B /* RabbitTests.swift */; };
@@ -237,6 +239,8 @@
 		0EE73E72204D599C00110E11 /* CMACTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMACTests.swift; sourceTree = "<group>"; };
 		14156CE42011422400DDCFBC /* ChaCha20Poly1305Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaCha20Poly1305Tests.swift; sourceTree = "<group>"; };
 		1467460E2017BB3600DF04ED /* AEAD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEAD.swift; sourceTree = "<group>"; };
+		2206765B2B081ABA00D797DD /* AESEncryptedFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptedFile.swift; sourceTree = "<group>"; };
+		2206765D2B081B0100D797DD /* AESEncryptedFileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptedFileTests.swift; sourceTree = "<group>"; };
 		35F3E51B23BF9A6700A024A1 /* OCB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCB.swift; sourceTree = "<group>"; };
 		35F3E51D23BF9AD300A024A1 /* AESOCBTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESOCBTests.swift; sourceTree = "<group>"; };
 		42012782267A6F1C00F82506 /* ISO10126Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISO10126Padding.swift; sourceTree = "<group>"; };
@@ -583,6 +587,7 @@
 				6A7CDEEC26CD1E4C00FFB1AF /* RSATests.swift */,
 				75C2E76C1D55F097003D2BCA /* Access.swift */,
 				756BFDCA1A82B87300B9D9A4 /* Bridging.h */,
+				2206765D2B081B0100D797DD /* AESEncryptedFileTests.swift */,
 			);
 			name = Tests;
 			path = Tests/CryptoSwiftTests;
@@ -695,6 +700,7 @@
 				753674062175D012003E32A6 /* StreamDecryptor.swift */,
 				756A64C52111083B00BE8805 /* StreamEncryptor.swift */,
 				7507707028D61ED5004A44DC /* Signature.swift */,
+				2206765B2B081ABA00D797DD /* AESEncryptedFile.swift */,
 			);
 			path = CryptoSwift;
 			sourceTree = "<group>";
@@ -1014,6 +1020,7 @@
 				756A64C62111083B00BE8805 /* StreamEncryptor.swift in Sources */,
 				6AC8940726DB950F00F7E787 /* Exponentiation.swift in Sources */,
 				6AC8940026DB950F00F7E787 /* Subtraction.swift in Sources */,
+				2206765C2B081ABA00D797DD /* AESEncryptedFile.swift in Sources */,
 				75EC52A61EE8B8390048EB3B /* PBKDF1.swift in Sources */,
 				6AC893FB26DB950F00F7E787 /* Bitwise Ops.swift in Sources */,
 				75EC52B41EE8B83D0048EB3B /* UInt32+Extension.swift in Sources */,
@@ -1100,6 +1107,7 @@
 				755FB1DA199E347D00475437 /* ExtensionsTest.swift in Sources */,
 				81F279DF2181F5A000449EDA /* ScryptTests.swift in Sources */,
 				674A736F1BF5D85B00866C5B /* RabbitTests.swift in Sources */,
+				2206765E2B081B0100D797DD /* AESEncryptedFileTests.swift in Sources */,
 				0EE73E74204D59C200110E11 /* CMACTests.swift in Sources */,
 				6A7CDEED26CD1E4C00FFB1AF /* RSATests.swift in Sources */,
 				750CC3EB1DC0CACE0096BE6E /* BlowfishTests.swift in Sources */,
